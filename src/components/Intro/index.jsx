@@ -1,6 +1,9 @@
 const Intro = () => {
   return (
-    <div className="w-full p-4 sm:my-20 flex sm:flex-row flex-col justify-between items-center">
+    <div
+      className="w-full p-4 sm:my-20 flex sm:flex-row flex-col justify-between items-center"
+      id="home"
+    >
       <div className="flex flex-col justify-center">
         <h1 className="uppercase text-center text-4xl sm:text-start sm:text-6xl md:text-7xl">
           Görkem Üveyk

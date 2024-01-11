@@ -18,7 +18,7 @@ const ProjectItem = ({ repo }) => {
             target="_blank"
             href={repo.liveDemo}
             rel="noreferrer"
-            className="p-1 bg-transparent border border-[#fff] my-2 rounded w-[100px] hover:bg-[#fff] hover:text-[#FF2E63] transition-colors cursor-pointer text-center"
+            className="p-1 bg-transparent border border-[#fff] my-2 rounded w-[100px] hover:bg-[#fff] hover:text-[#FF2E63] transition-colors cursor-pointer text-center text-sm flex items-center justify-center md:text-[16px]"
           >
             Live Demo
           </a>
@@ -26,7 +26,7 @@ const ProjectItem = ({ repo }) => {
             target="_blank"
             href={repo.sourceCode}
             rel="noreferrer"
-            className="p-1 bg-transparent border border-[#fff] my-2 rounded w-[100px] hover:bg-[#fff] hover:text-[#FF2E63] transition-colors cursor-pointer text-center"
+            className="p-1 bg-transparent border border-[#fff] my-2 rounded w-[100px] hover:bg-[#fff] hover:text-[#FF2E63] transition-colors cursor-pointer text-center text-sm flex items-center justify-center md:text-[16px]"
           >
             Source Code
           </a>

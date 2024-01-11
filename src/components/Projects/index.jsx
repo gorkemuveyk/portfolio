@@ -3,7 +3,7 @@ import items from "./items.json";
 
 const Projects = () => {
   return (
-    <div className="my-10 w-full">
+    <div className="my-10 w-full" id="projects">
       <h3 className="text-6xl my-3 text-center">Projects</h3>
       <p className="text-center">
         Only some of my projects, for all my projects 👉{" "}
