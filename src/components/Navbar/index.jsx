@@ -2,7 +2,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#FF2E63] w-full max-w-[1200px] sm:h-16 h-44 rounded flex sm:flex-row flex-col items-center justify-center gap-1 sm:gap-0 sm:justify-between px-10 md:fixed md:top-0 md:z-50">
+    <nav className="bg-[#FF2E63] w-full max-w-[1200px] sm:h-16 h-44 rounded rounded-t-none flex sm:flex-row flex-col items-center justify-center gap-1 sm:gap-0 sm:justify-between px-10 md:fixed md:top-0 md:z-50">
       <div className="text-4xl font-bold bg-white w-[50px] h-[50px] rounded-full text-[#FF2E63] flex items-center justify-center select-none">
         G
       </div>
