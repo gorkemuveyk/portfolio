@@ -1,5 +1,6 @@
 import SmoothScroll from "smooth-scroll";
 import "./Navbar.css";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   var scroll = new SmoothScroll('a[href*="#"]', {
@@ -8,7 +9,12 @@ const Navbar = () => {
   });
 
   return (
-    <nav className="bg-[#FF2E63] w-full sm:h-16 h-44 rounded rounded-t-none flex sm:flex-row flex-col items-center justify-center gap-1 sm:gap-0 sm:justify-center px-10 md:gap-5 lg:gap-7 xl:gap-10">
+    <motion.nav
+      initial={{ y: -100 }}
+      animate={{ y: 0 }}
+      transition={{ ease: "easeOut", duration: 0.5 }}
+      className="bg-[#FF2E63] w-full sm:h-16 h-44 rounded rounded-t-none flex sm:flex-row flex-col items-center justify-center gap-1 sm:gap-0 sm:justify-center px-10 md:gap-5 lg:gap-7 xl:gap-10"
+    >
       <div className="text-4xl font-bold bg-white w-[50px] h-[50px] rounded-full text-[#FF2E63] flex items-center justify-center select-none">
         G
       </div>
@@ -42,7 +48,7 @@ const Navbar = () => {
       >
         Contact Me
       </a>
-    </nav>
+    </motion.nav>
   );
 };
 
