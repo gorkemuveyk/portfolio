@@ -2,14 +2,368 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/img/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Görkem üveyk portfolio website." />
-    <meta name="keywords" content="görkem üveyk, görkem, portfolio, website" />
-    <title>Görkem Üveyk | Personel Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Görkem Üveyk | Portfolio Website</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <header class="header">
+      <a href="#home" class="logo">Görkem <span>Üveyk</span></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#education">Education</a>
+        <a href="#services">Skills</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, It's <span>Görkem</span></h1>
+        <h3 class="text-animation">I'm a <span></span></h3>
+        <p>
+          I am a Full-Stack developer based in Tekirdag, Turkey. I am very
+          passionate about improving my coding skills & developing applications
+          & websites. I build WebApps and Websites using MERN Stack. Working for
+          myself to improve my skills. Love to build Full-Stack clones. Apart
+          from all these, I provide paid/free software trainings for people who
+          want to learn software. These are available on Udemy and Youtube
+          platforms.
+        </p>
+
+        <div class="social-icons">
+          <a href="https://www.udemy.com/user/gorkemli-yazilim/" target="_blank"
+            ><i class="bx bxs-video"></i
+          ></a>
+          <a href="https://www.youtube.com/@gorkemliyazilim" target="_blank"
+            ><i class="bx bxl-youtube"></i
+          ></a>
+          <a href="https://github.com/gorkemuveyk" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.instagram.com/gorkemuveykk/" target="_blank"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+        </div>
+
+        <div class="btn-group">
+          <a href="mailto:gorkemuveyk@yahoo.com" class="btn">Hire</a>
+          <a href="#contact" class="btn">Contact</a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="image.png" alt="" />
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <h2 class="heading">Education</h2>
+
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2017-2021</div>
+          <div class="timeline-content">
+            <h3>High School - Database Programming</h3>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2021-2023</div>
+          <div class="timeline-content">
+            <h3>Amasya University - Computer Programming</h3>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2023</div>
+          <div class="timeline-content">
+            <h3>Internship</h3>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2024 - Currently</div>
+          <div class="timeline-content">
+            <h3>
+              Job:
+              <a
+                href="https://atiasoft.net/"
+                style="color: #fff; border-bottom: 1px solid #00ffee"
+                target="_blank"
+                >AtiaSoft</a
+              >
+            </h3>
+            <p>
+              I develop desktop automations such as front accounting, restaurant
+              cafe automation, technical service, barcode systems, e-invoice
+              within AtiaSoft.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2024 - Currently</div>
+          <div class="timeline-content">
+            <h3>
+              Job:
+              <a
+                href="https://www.udemy.com/user/gorkemli-yazilim/"
+                style="color: #fff; border-bottom: 1px solid #00ffee"
+                target="_blank"
+                >Udemy</a
+              >
+              &
+              <a
+                href="https://www.youtube.com/@gorkemliyazilim"
+                style="color: #fff; border-bottom: 1px solid #00ffee"
+                target="_blank"
+                >YouTube</a
+              >
+            </h3>
+            <p>
+              I publish paid software tutorials on Udemy and free software
+              tutorials on YouTube
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <h2 class="heading">Skills & Abilities</h2>
+
+      <div class="services-container">
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Full Stack Development</h4>
+            <p>
+              I have the knowledge to develop everything a website needs.
+              Front-end, Back-end, Database, Design, Testing, Publishing,
+              Maintenance, Analysis and many more.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Front-end Development</h4>
+            <p>
+              I can develop the entire front-end of a website. I can decide
+              everything from drawing the design, creating the ui/ux structure,
+              font size to color harmony.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Back-end Development</h4>
+            <p>
+              I can code the entire back-end of a website. I can handle database
+              development, server development, server maintenance and server
+              security.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Desktop Development</h4>
+            <p>
+              I can develop desktop applications for Windows and Mac devices.
+              This way you can run your business without the internet.
+            </p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Mobile Development</h4>
+            <p>
+              I can develop professional mobile applications for iOS and
+              Android. Everything you need on your cell phone or tablet!
+            </p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Testing</h4>
+            <p>
+              I can perform testing and maintenance of all developed software.
+              This is a very important step for the proper functioning of the
+              systems.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+      <div class="testimonials-box">
+        <h2 class="heading">Testimonials</h2>
+        <div class="wrapper">
+          <div class="testimonial-item">
+            <img src="1.png" alt="" />
+            <h2>Hilmican P.</h2>
+            <div class="rating">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+            </div>
+            <p>
+              I can say that it is the best course for starting software, thanks
+              for your efforts.
+            </p>
+            <p>
+              One comment from
+              <a
+                style="color: #fff; border-bottom: 1px solid #00ffee"
+                href="https://www.udemy.com/course/sifirdan-yazilimci-ol/"
+                target="_blank"
+                >Becoming a Software Developer from Scratch</a
+              >
+              Course
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="1.png" alt="" />
+            <h2>Derya A.</h2>
+            <div class="rating">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+            </div>
+            <p>
+              He has a very sincere tone of voice and narration technique. In
+              other words, he doesn't speak in a superior way, he tells you
+              without boring you. You are not bored while listening, you feel
+              that you are being educated.
+            </p>
+            <p>
+              One comment from
+              <a
+                style="color: #fff; border-bottom: 1px solid #00ffee"
+                href="https://www.udemy.com/course/sifirdan-yazilimci-ol/"
+                target="_blank"
+                >Becoming a Software Developer from Scratch</a
+              >
+              Course
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="1.png" alt="" />
+            <h2>Ebrar G.</h2>
+            <div class="rating">
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+              <i class="bx bxs-star"></i>
+            </div>
+            <p>
+              I took the course, I liked your narrative and I think it will be
+              useful to me, thank you, thank you, health to your labor.
+            </p>
+            <p>
+              One comment from
+              <a
+                style="color: #fff; border-bottom: 1px solid #00ffee"
+                href="https://www.udemy.com/course/sifirdan-yazilimci-ol/"
+                target="_blank"
+                >Becoming a Software Developer from Scratch</a
+              >
+              Course
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form id="myForm">
+        <div class="input-group">
+          <div class="input-box">
+            <input required type="text" placeholder="Full Name" />
+            <input required type="email" placeholder="Email" />
+          </div>
+
+          <div class="input-box">
+            <input required type="number" placeholder="Phone Number" />
+            <input required type="text" placeholder="Subject" />
+          </div>
+        </div>
+
+        <div class="input-group-2">
+          <textarea
+            required
+            name=""
+            placeholder="Your Message"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" class="btn" value="Send Message" />
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="social">
+        <a href="https://www.udemy.com/user/gorkemli-yazilim/" target="_blank"
+          ><i class="bx bxs-video"></i
+        ></a>
+        <a href="https://www.youtube.com/@gorkemliyazilim" target="_blank"
+          ><i class="bx bxl-youtube"></i
+        ></a>
+        <a href="https://github.com/gorkemuveyk" target="_blank"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a href="https://www.instagram.com/gorkemuveykk/" target="_blank"
+          ><i class="bx bxl-instagram-alt"></i
+        ></a>
+      </div>
+
+      <ul class="list">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#education">Education</a>
+        </li>
+        <li>
+          <a href="#services">Skills</a>
+        </li>
+        <li>
+          <a href="#testimonials">Testimonials</a>
+        </li>
+      </ul>
+
+      <p class="copyright">&copy; Görkem Üveyk | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
